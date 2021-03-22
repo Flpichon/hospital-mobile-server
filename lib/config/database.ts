@@ -1,3 +1,3 @@
 import {Sequelize} from 'sequelize';
 
-export const database = new Sequelize('mariadb://root:@localhost:3307/hopital', {});
+export const database = new Sequelize('mysql://root:@localhost:3306/ogsbc', {});

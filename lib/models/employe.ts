@@ -43,6 +43,7 @@ Employe.init(
   {
     tableName: "employe",
     sequelize: database,
+    
   }
 );
 
